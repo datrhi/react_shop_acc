@@ -1,0 +1,19 @@
+:root {
+  --primary: #1888ff;
+}
+.btn {
+  padding: 8px 20px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  color: white;
+  background-color: var(--primary);
+  cursor: pointer;
+}
+.btn:hover {
+  padding: 6px 18px;
+  background-color: transparent;
+  border: 2px solid var(--primary);
+  transition: all 0.3s ease-out;
+}
