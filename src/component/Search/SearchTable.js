@@ -3,20 +3,20 @@ import "./SearchTable.css";
 export default function SearchTable() {
   return (
     <div>
-      <div className="search-container">
+      <form className="search-container">
         <div className="search-title">CHỌN THUỘC TÍNH LỌC</div>
         <button className="search-button">TÌM KIẾM</button>
         <button className="cancel-button">HỦY BỎ</button>
         <select className="search-item" id="find-by-rank">
           <option value="">Tìm theo rank</option>
-          <option value="iron">Sắt</option>
-          <option value="bronze">Đồng</option>
-          <option value="silver">Bạc</option>
-          <option value="gold">Vàng</option>
-          <option value="platium">Bạch kim</option>
-          <option value="diamond">Kim cương</option>
-          <option value="immortal">Bất tử</option>
-          <option value="radiant">VALORANT</option>
+          <option value="Iron">Sắt</option>
+          <option value="Bronze">Đồng</option>
+          <option value="Silver">Bạc</option>
+          <option value="Gold">Vàng</option>
+          <option value="Platium">Bạch kim</option>
+          <option value="Diamond">Kim cương</option>
+          <option value="Immortal">Bất tử</option>
+          <option value="Radiant">VALORANT</option>
         </select>
 
         <select className="search-item" id="find-by-price">
@@ -33,7 +33,7 @@ export default function SearchTable() {
             <option value='price'>Giá thấp đến cao</option>
             <option value='rank'>Rank thấp đến cao</option>
         </select>
-      </div>
+      </form>
     </div>
   );
 }

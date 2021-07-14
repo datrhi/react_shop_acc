@@ -1,0 +1,142 @@
+[
+    {
+        "id" : 1,
+        "rank": "Platinum",
+        "skin_num": 28,
+        "price": 17000000,
+        "img": "test.png" 
+    },
+    {
+        "id" : 2,
+        "rank": "Immortal",
+        "skin_num": 20,
+        "price": 12000000,
+        "img": "test.png" 
+    },
+    {
+        "id" : 3,
+        "rank": "Gold",
+        "skin_num": 28,
+        "price": 15000000,
+        "img": "test.png" 
+    },
+    {
+        "id" : 4,
+        "rank": "Bronze",
+        "skin_num": 2,
+        "price": 200000,
+        "img": "test.png" 
+    },
+    {
+        "id" : 5,
+        "rank": "Silver",
+        "skin_num": 10,
+        "price": 5700000,
+        "img": "test.png" 
+    },
+    {
+        "id" : 6,
+        "rank": "VALORANT",
+        "skin_num": 20,
+        "price": 15000000,
+        "img": "test.png" 
+    },
+    {
+        "id" : 7,
+        "rank": "Diamond",
+        "skin_num": 21,
+        "price": 1500000,
+        "img": "test.png" 
+    },
+    {
+        "id" : 8,
+        "rank": "Iron",
+        "skin_num": 1,
+        "price": 100000,
+        "img": "test.png" 
+    },
+    {
+        "id" : 9,
+        "rank": "Gold",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 10,
+        "rank": "Gold",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 11,
+        "rank": "Gold",
+        "skin_num": 11,
+        "price": 1100000,
+        "img": "test.png"
+    },
+    {
+        "id" : 12,
+        "rank": "Gold",
+        "skin_num": 12,
+        "price": 12000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 13,
+        "rank": "Gold",
+        "skin_num": 1,
+        "price": 100000,
+        "img": "test.png"
+    },
+    {
+        "id" : 14,
+        "rank": "Gold",
+        "skin_num": 14,
+        "price": 14000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 9,
+        "rank": "Gold",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 15,
+        "rank": "Gold",
+        "skin_num": 15,
+        "price": 15000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 16,
+        "rank": "Silver",
+        "skin_num": 10,
+        "price": 10000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 17,
+        "rank": "Platinum",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 18,
+        "rank": "Diamond",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 19,
+        "rank": "Iron",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    }
+]

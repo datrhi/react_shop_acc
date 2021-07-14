@@ -20,7 +20,7 @@ export default function Navbar() {
     <>
       <nav className="navbar">
         <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-          SHOP
+          VALORANT SHOP
           <i class="fas fa-store" />
         </Link>
         <div className="menu-icon" onClick={handleCLick}>

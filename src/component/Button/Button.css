@@ -5,14 +5,14 @@
   padding: 8px 20px;
   border-radius: 8px;
   outline: none;
-  border: none;
+  border: 2px solid var(--primary);
   font-size: 18px;
   color: white;
   background-color: var(--primary);
   cursor: pointer;
 }
 .btn:hover {
-  padding: 6px 18px;
+  padding: 8px 20px;
   background-color: transparent;
   border: 2px solid var(--primary);
   transition: all 0.3s ease-out;

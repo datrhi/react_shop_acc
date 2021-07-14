@@ -1,0 +1,61 @@
+:root {
+  --titleColor: #ffea00;
+}
+.auth-container {
+  width: 80vw;
+  background: #1f2228;
+  height: 1000px;
+  border-radius: 6px;
+}
+.register-container,
+.login-container {
+  padding: 20px;
+}
+.register-form {
+    height: 620px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.login-form {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.auth-title {
+  font-size: 2.5vw;
+  color: var(--titleColor);
+  text-align: center;
+}
+.register-input,
+.login-input {
+    width: 30vw;
+    height: 30px;
+    border-radius: 6px;
+    padding: 20px;
+}
+.auth-button {
+    width: 30vw;
+    outline:none;
+    border: 1px solid var(--titleColor);
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: var(--titleColor);
+    padding: 10px;
+}
+.auth-button:hover {
+    background-color: transparent;
+    border: 1px solid var(--titleColor);
+    color: var(--titleColor);
+    transition: all 0.2s ease;
+}
+@media screen and (max-width:992px){
+    .login-input,
+    .register-input{
+        width: 60vw;
+
+    }
+}

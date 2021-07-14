@@ -1,0 +1,34 @@
+.pagination {
+    list-style-type: none;
+    height: 80px;
+    background: #000000;
+    border-radius: 6px;
+    padding: 0;
+    font-size: 16px;
+    margin-left: 1vw;
+}
+.page-item {
+    display: inline-block;
+    margin: 20px 0;
+    width: 30px;
+}
+.page-link {
+    font-size: 16px;
+    width: 25px;
+    height: 25px;
+    text-decoration: none;
+    color: #979797;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #2b2b2b;
+    border-radius: 6px;
+}
+.page-link:hover {
+    border-color: white;
+    transition: all 0.2s ease;
+}
+.page-link.active {
+    background-color: #979797;
+    color: black;
+}
