@@ -20,18 +20,22 @@ export default function Pagination({
             </button>
           </li>
         )}
-        {pageNumbers.map((number) => (
-          <li key={number} className="page-item">
-            <button
-              onClick={() => paginate(number)}
-              className={
-                currentPage === number ? "page-link active" : "page-link"
-              }
-            >
-              {number}
-            </button>
-          </li>
-        ))}
+        {pageNumbers.map(
+          (number) =>
+            currentPage > number - 3 &&
+            currentPage < number + 3 && (
+              <li key={number} className="page-item">
+                <button
+                  onClick={() => paginate(number)}
+                  className={
+                    currentPage === number ? "page-link active" : "page-link"
+                  }
+                >
+                  {number}
+                </button>
+              </li>
+            )
+        )}
         {currentPage !== Math.ceil(totalItems / ItemsPerPage) && (
           <li
             key={Math.ceil(totalItems / ItemsPerPage) + 1}

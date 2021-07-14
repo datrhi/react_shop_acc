@@ -138,5 +138,551 @@
         "skin_num": 10,
         "price": 1000000,
         "img": "test.png"
+    },
+    {
+        "id" : 17,
+        "rank": "Platinum",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 18,
+        "rank": "Diamond",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 19,
+        "rank": "Iron",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 17,
+        "rank": "Platinum",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 18,
+        "rank": "Diamond",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 19,
+        "rank": "Iron",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 17,
+        "rank": "Platinum",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 18,
+        "rank": "Diamond",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 19,
+        "rank": "Iron",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 17,
+        "rank": "Platinum",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 18,
+        "rank": "Diamond",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 19,
+        "rank": "Iron",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 17,
+        "rank": "Platinum",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 18,
+        "rank": "Diamond",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 19,
+        "rank": "Iron",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 17,
+        "rank": "Platinum",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 18,
+        "rank": "Diamond",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 19,
+        "rank": "Iron",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 17,
+        "rank": "Platinum",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 18,
+        "rank": "Diamond",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 19,
+        "rank": "Iron",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 17,
+        "rank": "Platinum",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 18,
+        "rank": "Diamond",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 19,
+        "rank": "Iron",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 17,
+        "rank": "Platinum",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 18,
+        "rank": "Diamond",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 19,
+        "rank": "Iron",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 17,
+        "rank": "Platinum",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 18,
+        "rank": "Diamond",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 19,
+        "rank": "Iron",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 17,
+        "rank": "Platinum",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 18,
+        "rank": "Diamond",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 19,
+        "rank": "Iron",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 17,
+        "rank": "Platinum",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 18,
+        "rank": "Diamond",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 19,
+        "rank": "Iron",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 17,
+        "rank": "Platinum",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 18,
+        "rank": "Diamond",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 19,
+        "rank": "Iron",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 17,
+        "rank": "Platinum",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 18,
+        "rank": "Diamond",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 19,
+        "rank": "Iron",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 17,
+        "rank": "Platinum",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 18,
+        "rank": "Diamond",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 19,
+        "rank": "Iron",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 17,
+        "rank": "Platinum",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 18,
+        "rank": "Diamond",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 19,
+        "rank": "Iron",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 17,
+        "rank": "Platinum",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 18,
+        "rank": "Diamond",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 19,
+        "rank": "Iron",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 17,
+        "rank": "Platinum",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 18,
+        "rank": "Diamond",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 19,
+        "rank": "Iron",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 17,
+        "rank": "Platinum",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 18,
+        "rank": "Diamond",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 19,
+        "rank": "Iron",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 17,
+        "rank": "Platinum",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 18,
+        "rank": "Diamond",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 19,
+        "rank": "Iron",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 17,
+        "rank": "Platinum",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 18,
+        "rank": "Diamond",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 19,
+        "rank": "Iron",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 17,
+        "rank": "Platinum",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 18,
+        "rank": "Diamond",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 19,
+        "rank": "Iron",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 17,
+        "rank": "Platinum",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 18,
+        "rank": "Diamond",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 19,
+        "rank": "Iron",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 17,
+        "rank": "Platinum",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 18,
+        "rank": "Diamond",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 19,
+        "rank": "Iron",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 17,
+        "rank": "Platinum",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 18,
+        "rank": "Diamond",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 19,
+        "rank": "Iron",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 17,
+        "rank": "Platinum",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 18,
+        "rank": "Diamond",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
+    },
+    {
+        "id" : 19,
+        "rank": "Iron",
+        "skin_num": 10,
+        "price": 1000000,
+        "img": "test.png"
     }
 ]
