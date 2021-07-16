@@ -1,26 +1,35 @@
-import React from 'react'
-import './AuthForm.css'
-export default function AuthForm() {
-    return (
-        <div className='auth-container'>
-            <div className='login-container'>
-                <form className='login-form' method="POST">
-                    <h4 className='auth-title'>ĐĂNG NHẬP TÀI KHOẢN</h4>
-                    <input name='username' className='login-input' placeholder='Tên đăng nhập' type='text' required/>
-                    <input name='password' className='login-input' placeholder='Mật khẩu' type='password' required/>
-                    <button className='auth-button' type='submit' >Đăng nhập</button>
-                </form>
-            </div>
-            <div className='register-container'>
-                <form className='register-form' method="POST">
-                    <h4 className='auth-title'>ĐĂNG KÝ TÀI KHOẢN</h4>
-                    <input name="username" className='register-input' placeholder='Tên đăng nhập' type='text' required/>
-                    <input name='emaill' className='register-input' placeholder='Email' type='email' required />
-                    <input name="password" className='register-input' placeholder='Mật khẩu' type='password' required/>
-                    <input name='password' className='register-input' placeholder='Nhập lại mật khẩu' type='password' required/>
-                    <button className='auth-button' type='submit'>Đăng ký</button>
-                </form>
-            </div>
-        </div>
-    )
+import React from "react";
+import "./AuthForm.css";
+import SignInForm from "./SignInForm";
+import SignUpForm from "./SignUpForm";
+import { AuthContext } from "../../context/AuthContext";
+import { useContext } from "react";
+import { Redirect } from "react-router-dom";
+import '../../App.css'
+export default function AuthForm({ authRoute }) {
+  const {
+    authState: { authLoading, isAuthenticated },
+  } = useContext(AuthContext);
+
+  let body;
+
+  if (authLoading) body = <div className='auth-loading'>Loading...</div>;
+  else if (isAuthenticated) {
+    return <Redirect to="/" />;
+  } else {
+    body = (
+      <div
+        className={
+          authRoute === "sign-in"
+            ? "auth-login-container"
+            : "auth-register-container"
+        }
+      >
+        {authRoute === "sign-in" && <SignInForm />}
+        {authRoute === "sign-up" && <SignUpForm />}
+      </div>
+    );
+  }
+
+  return <div className="page-container">{body}</div>;
 }

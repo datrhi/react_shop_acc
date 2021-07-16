@@ -1,0 +1,24 @@
+.account-container {
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+.account-link {
+  padding: 25px 1rem;
+  text-decoration: none;
+  background: #717171;
+  border-radius: 18px;
+  color: white;
+}
+.account-link:hover {
+    border-bottom: 5px solid #1888ff;
+  padding: 25px 1rem;
+  background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(150, 150, 150));
+  transition: all 0.5s ease-out;
+  border-radius: 18px;
+}
+@media screen and (max-width: 992px) {
+  .account-container {
+    display: none;
+  }
+}

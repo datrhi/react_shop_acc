@@ -1,8 +1,9 @@
+
 .dropdown-menu {
     background: #1888ff;
-    /* width: 200px; */
     position: absolute;
     top: 80px;
+    width: 150px;
     list-style: none;
     text-align: center;
     transform: translate(-90%);

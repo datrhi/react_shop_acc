@@ -1,12 +1,15 @@
 import React, { useState } from "react";
-import {DropdownItems} from "./DropdownItems";
+import { AuthContext } from "../../context/AuthContext";
+import { useContext } from "react";
 import { Link } from "react-router-dom";
 import './Dropdown.css'
-export default function Dropdown() {
+export default function Dropdown({DropdownItems}) {
+  const { logoutUser } = useContext(AuthContext)
+
   const [Click, setClick] = useState(false);
   const handleClick = () => setClick(!Click);
   return (
-    <div>
+    <div className='dropdown-container'>
       <ul
         onClick={handleClick}
         className={Click ? "dropdown-menu active" : "dropdown-menu"}
@@ -16,7 +19,12 @@ export default function Dropdown() {
             <Link
               to={item.path}
               className='dropdown-link'
-              onClick={() => setClick(false)}
+              onClick={() => {
+                if(item.title === 'Đăng xuất') {
+                  logoutUser()
+                }
+                setClick(false);
+              }}
             >
               {item.title}
             </Link>

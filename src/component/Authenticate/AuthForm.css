@@ -1,25 +1,53 @@
 :root {
   --titleColor: #ffea00;
 }
-.auth-container {
+.page-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  flex-direction: column;
+  height: 100vh;
+
+  background-image: url("../../assets/bg9.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+.auth-login-container {
   width: 80vw;
   background: #1f2228;
-  height: 1000px;
+  height: 450px;
+  border-radius: 6px;
+}
+.auth-register-container {
+  width: 80vw;
+  background: #1f2228;
+  height: 500px;
   border-radius: 6px;
 }
 .register-container,
 .login-container {
+  height: 450px;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.register-container{
+  height: 500px;
 }
 .register-form {
-    height: 620px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }
 .login-form {
-  height: 300px;
+  height: 250px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,30 +60,70 @@
 }
 .register-input,
 .login-input {
-    width: 30vw;
-    height: 30px;
-    border-radius: 6px;
-    padding: 20px;
+  width: 30vw;
+  height: 30px;
+  border-radius: 6px;
+  padding: 20px;
 }
 .auth-button {
-    width: 30vw;
-    outline:none;
-    border: 1px solid var(--titleColor);
-    border-radius: 6px;
-    cursor: pointer;
-    background-color: var(--titleColor);
-    padding: 10px;
+  width: 30vw;
+  outline: none;
+  border: 1px solid var(--titleColor);
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: var(--titleColor);
+  padding: 10px;
 }
 .auth-button:hover {
-    background-color: transparent;
-    border: 1px solid var(--titleColor);
-    color: var(--titleColor);
-    transition: all 0.2s ease;
+  background-color: transparent;
+  border: 1px solid var(--titleColor);
+  color: var(--titleColor);
+  transition: all 0.2s ease;
 }
-@media screen and (max-width:992px){
-    .login-input,
-    .register-input{
-        width: 60vw;
-
-    }
+.reg-link-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #717171;
+}
+.auth-helper {
+  text-align: center;
+  font-size: 18px;
+}
+.reg-link {
+  margin-left: 20px;
+  font-size: 18px;
+  text-decoration: none;
+  color: #717171;
+  align-self: center;
+}
+.reg-link:hover {
+  color: white;
+  transition: all 0.3s ease;
+}
+.alert-danger, 
+.alert-success{
+  width: 30vw;
+  padding: 5px;
+  background: red;
+  border-radius: 6px;
+}
+.alert-success{
+  background:green;
+}
+.alert-message {
+  font-size: 18px;
+  text-align: center;
+}
+@media screen and (max-width: 992px) {
+  .login-input,
+  .register-input,
+  .alert-danger,
+  .alert-success {
+    width: 60vw;
+  }
+  .page-container{
+    height: 1300px;
+  }
 }

@@ -44,18 +44,18 @@
   text-decoration: none;
   color: white;
 }
-.nav-links:hover, .nav-links-dropdown:hover {
+.nav-links:hover,
+.nav-links-dropdown:hover {
   border-bottom: 5px solid #1888ff;
   padding: 25px 1rem;
-  background: linear-gradient(to bottom, rgb(0, 0, 0),rgb(150,150,150));
+  background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(150, 150, 150));
   transition: all 0.5s ease-out;
   border-radius: 18px;
 }
 
+.nav-links-mobile,
+.username-container,
 .menu-icon {
-  display: none;
-}
-.nav-links-mobile {
   display: none;
 }
 @media screen and (max-width: 992px) {
@@ -119,11 +119,19 @@
     background-color: #1888ff;
     border-radius: 8px;
     width: 80%;
+    cursor: pointer;
   }
   .nav-links-mobile:hover {
     background-color: #fff;
     color: #1888ff;
     transition: 0.5s;
+  }
+  .username-container {
+    display: block;
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    background: #717171;
   }
   .fa-caret-down {
     display: none;

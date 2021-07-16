@@ -1,11 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { useState } from "react";
+import { useState, useContext } from "react";
 import "./Navbar.css";
 import Dropdown from "../Dropdown/Dropdown";
 import Button from "../Button/Button";
+import { AuthContext } from "../../context/AuthContext";
+import Account from "../Account/Account";
 
 export default function Navbar() {
+  //Auth context
+  const { logoutUser, authState } = useContext(AuthContext);
   const [Click, setClick] = useState(false);
   const [dropdown, setDropdown] = useState(false);
 
@@ -42,26 +46,85 @@ export default function Navbar() {
             onMouseEnter={onMouseEnter}
             onMouseLeave={onMouseLeave}
           >
-            <Link
-              to="/purchase"
-              className="nav-links-dropdown"
-              onClick={closeMobileMenu}
-            >
-              Nạp tiền <i className="fas fa-caret-down" />
-            </Link>
-            {dropdown && <Dropdown />}
+            {window.innerWidth <= 992 ? (
+              <Link
+                to="/purchase"
+                className="nav-links-dropdown"
+                onClick={closeMobileMenu}
+              >
+                Nạp tiền <i className="fas fa-caret-down" />
+              </Link>
+            ) : (
+              <div
+                className="nav-links-dropdown"
+                style={{ cursor: "pointer", userSelect: "none" }}
+              >
+                Nạp tiền <i className="fas fa-caret-down"></i>{" "}
+              </div>
+            )}
+            {dropdown && (
+              <Dropdown
+                DropdownItems={[
+                  {
+                    title: "Nạp thẻ",
+                    path: "/card-purchasing",
+                  },
+                  {
+                    title: "Chuyển khoản",
+                    path: "/banking",
+                  },
+                ]}
+              />
+            )}
           </li>
-          <li>
-            <Link
-              to="/sign-in"
-              className="nav-links-mobile"
-              onClick={closeMobileMenu}
-            >
-              Đăng nhập
-            </Link>
-          </li>
+          {authState.isAuthenticated === false ? (
+            <li>
+              <Link
+                to="/sign-in"
+                className="nav-links-mobile"
+                onClick={closeMobileMenu}
+              >
+                Đăng nhập
+              </Link>
+            </li>
+          ) : (
+            <div>
+              <li>
+                <div className="username-container">
+                  User: {authState.user.username}
+                </div>
+              </li>
+              <li>
+                <Link
+                  to="/purchase"
+                  className="nav-links-mobile"
+                  onClick={() => {
+                    closeMobileMenu();
+                  }}
+                >
+                  Số dư: 0
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/sign-in"
+                  className="nav-links-mobile"
+                  onClick={() => {
+                    logoutUser();
+                    closeMobileMenu();
+                  }}
+                >
+                  Đăng xuất
+                </Link>
+              </li>
+            </div>
+          )}
         </ul>
-        <Button />
+        {authState.isAuthenticated === false ? (
+          <Button />
+        ) : (
+          <Account userInfo={authState.user} />
+        )}
       </nav>
     </>
   );

@@ -10,13 +10,12 @@
 .card-purchasing,
 .banking,
 .sign-in {
-  display: flex;
-  height: 880px;
-  align-items: center;
-  justify-content: center;
-  font-size: 3rem;
-  flex-direction: column;
-  height: 1300px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 3rem;
+flex-direction: column;
+height: 180vh;
 }
 .home {
   background-image: url("./assets/bg4.jpg");
@@ -54,10 +53,66 @@
   background-repeat: no-repeat;
   color: #fff;
 }
-.sign-in {
-  background-image: url("./assets/bg9.jpg");
+.null-home {
+  background-image: url('./assets/null.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
+  height: 100vh;
+}
+.auth-loading {
+  background-color: black;
+  color: white;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.redirect-route-container {
+  background-image: url('./assets/alert.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.alert-container {
+  background-color: #1f2228;
+  width: 80vw;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.alert-redirect {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+.redirect-link {
+  margin-top: 10px;
+  font-style: 22px;
+  text-decoration: none;
+  color: #717171;
+}
+.redirect-link:hover {
+  color: white;
+  transition: all 0.3s ease;
+}
+@media screen and (max-width: 992px) {
+  .home,
+  .history,
+  .purchase,
+  .card-purchasing,
+  .banking,
+  .sign-in,
+  .redirect-route-container {
+    height: 1300px;
+  }
 }
