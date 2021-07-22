@@ -3,6 +3,7 @@
   --secondary: #d64212;
 }
 .search-container {
+  margin-top: 50px;
   border-radius: 6px;
   background-color: #1f2228;
   padding:1vw;

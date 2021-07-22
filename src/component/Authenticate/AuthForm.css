@@ -16,15 +16,15 @@
   color: #fff;
 }
 .auth-login-container {
-  width: 80vw;
+  /* width: 80vw; */
+  padding: 50px;
   background: #1f2228;
-  height: 450px;
   border-radius: 6px;
 }
 .auth-register-container {
-  width: 80vw;
+  /* width: 80vw; */
+  padding: 50px;
   background: #1f2228;
-  height: 500px;
   border-radius: 6px;
 }
 .register-container,
